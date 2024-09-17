@@ -23,6 +23,7 @@
     "typescript-eslint": "^7.9.0",
     "vitest": "^1.6.0",
     "@playwright/test": "^1.44.0",
-    "nx": "19.7.3"
+    "nx": "19.7.3",
+    "@nx/workspace": "19.7.3"
   }
 }

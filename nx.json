@@ -6,10 +6,20 @@
       "outputs": ["{projectRoot}/.next"],
       "cache": true
     },
-    "e2e": { "cache": true },
-    "lint": { "cache": true },
-    "test": { "cache": true }
+    "e2e": {
+      "cache": true
+    },
+    "lint": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
+    }
   },
   "defaultBase": "main",
-  "nxCloudId": "66e99dcf5d41efe7b0c5dc21"
+  "nxCloudId": "66e99dcf5d41efe7b0c5dc21",
+  "namedInputs": {
+    "sharedGlobals": ["{workspaceRoot}/.github/workflows/verify.yml"],
+    "default": ["sharedGlobals"]
+  }
 }
