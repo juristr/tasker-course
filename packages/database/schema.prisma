@@ -1,0 +1,51 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./tmp/dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Project {
+  id     Int    @id @default(autoincrement())
+  slug   String @unique
+  name   String
+  status String @default("on_track")
+  Task   Task[]
+}
+
+model Task {
+  id               Int                @id @default(autoincrement())
+  slug             String?            @unique
+  title            String
+  description      String?
+  createdAt        DateTime           @default(now())
+  dueAt            DateTime?
+  status           String             @default("backlog")
+  deleted          Boolean            @default(false)
+  Project          Project?           @relation(fields: [projectId], references: [id])
+  projectId        Int?
+  User             User?              @relation(fields: [userId], references: [id])
+  userId           Int?
+  AssigneesOnTasks AssigneesOnTasks[]
+}
+
+model User {
+  id               Int                @id @default(autoincrement())
+  name             String
+  email            String             @unique
+  password         String // super secure plain-text password
+  tasks            Task[]
+  avatarBase64     String
+  AssigneesOnTasks AssigneesOnTasks[]
+}
+
+model AssigneesOnTasks {
+  task       Task @relation(fields: [taskId], references: [id])
+  taskId     Int
+  assignee   User @relation(fields: [assigneeId], references: [id])
+  assigneeId Int
+
+  @@id([taskId, assigneeId])
+}

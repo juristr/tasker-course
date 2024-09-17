@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx start @tasker/web",
+    "startTime": "2024-10-28T13:45:19.008Z",
+    "endTime": "2024-10-28T13:45:19.886Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@tasker/web:build",
+      "target": "build",
+      "projectName": "@tasker/web",
+      "hash": "17084222984112237956",
+      "startTime": "2024-10-28T13:45:19.014Z",
+      "endTime": "2024-10-28T13:45:19.018Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "@tasker/web:start",
+      "target": "start",
+      "projectName": "@tasker/web",
+      "hash": "15083476184939138061",
+      "startTime": "2024-10-28T13:45:19.023Z",
+      "endTime": "2024-10-28T13:45:19.885Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

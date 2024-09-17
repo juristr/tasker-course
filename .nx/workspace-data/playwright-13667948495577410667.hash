@@ -1,0 +1,1148 @@
+{
+  "9431644547896960482": {
+    "targets": {
+      "playwright:e2e": {
+        "command": "playwright test",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/auth-login-logout.spec.ts": {
+        "command": "playwright test tests/auth-login-logout.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/auth-login-logout.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/auth-protected.spec.ts": {
+        "command": "playwright test tests/auth-protected.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/auth-protected.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/dashboard.spec.ts": {
+        "command": "playwright test tests/dashboard.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/dashboard.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/projects-details-create-defaults.spec.ts": {
+        "command": "playwright test tests/projects-details-create-defaults.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/projects-details-create-defaults.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/projects-details-create-tasks.spec.ts": {
+        "command": "playwright test tests/projects-details-create-tasks.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/projects-details-create-tasks.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/projects-details-update-status.spec.ts": {
+        "command": "playwright test tests/projects-details-update-status.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/projects-details-update-status.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/projects-list.spec.ts": {
+        "command": "playwright test tests/projects-list.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/projects-list.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/sidebar.spec.ts": {
+        "command": "playwright test tests/sidebar.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/sidebar.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/tasks-details-create-tasks.spec.ts": {
+        "command": "playwright test tests/tasks-details-create-tasks.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/tasks-details-create-tasks.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/tasks-details-delete-tasks.spec.ts": {
+        "command": "playwright test tests/tasks-details-delete-tasks.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/tasks-details-delete-tasks.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/tasks-details-editings.spec.ts": {
+        "command": "playwright test tests/tasks-details-editings.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/tasks-details-editings.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/tasks-list.spec.ts": {
+        "command": "playwright test tests/tasks-list.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/tasks-list.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci": {
+        "executor": "nx:noop",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ],
+        "dependsOn": [
+          {
+            "target": "e2e-ci--tests/auth-login-logout.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/auth-protected.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/dashboard.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/projects-details-create-defaults.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/projects-details-create-tasks.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/projects-details-update-status.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/projects-list.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/sidebar.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/tasks-details-create-tasks.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/tasks-details-delete-tasks.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/tasks-details-editings.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/tasks-list.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          }
+        ],
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in CI",
+          "nonAtomizedTarget": "playwright:e2e",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "E2E (CI)": [
+          "e2e-ci--tests/auth-login-logout.spec.ts",
+          "e2e-ci--tests/auth-protected.spec.ts",
+          "e2e-ci--tests/dashboard.spec.ts",
+          "e2e-ci--tests/projects-details-create-defaults.spec.ts",
+          "e2e-ci--tests/projects-details-create-tasks.spec.ts",
+          "e2e-ci--tests/projects-details-update-status.spec.ts",
+          "e2e-ci--tests/projects-list.spec.ts",
+          "e2e-ci--tests/sidebar.spec.ts",
+          "e2e-ci--tests/tasks-details-create-tasks.spec.ts",
+          "e2e-ci--tests/tasks-details-delete-tasks.spec.ts",
+          "e2e-ci--tests/tasks-details-editings.spec.ts",
+          "e2e-ci--tests/tasks-list.spec.ts",
+          "e2e-ci"
+        ]
+      }
+    }
+  },
+  "4326813149192828886": {
+    "targets": {
+      "playwright:e2e": {
+        "command": "playwright test",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/auth-login-logout.spec.ts": {
+        "command": "playwright test tests/auth-login-logout.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/auth-login-logout.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/auth-protected.spec.ts": {
+        "command": "playwright test tests/auth-protected.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/auth-protected.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/dashboard.spec.ts": {
+        "command": "playwright test tests/dashboard.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/dashboard.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/projects-details-create-defaults.spec.ts": {
+        "command": "playwright test tests/projects-details-create-defaults.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/projects-details-create-defaults.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/projects-details-create-tasks.spec.ts": {
+        "command": "playwright test tests/projects-details-create-tasks.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/projects-details-create-tasks.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/projects-details-update-status.spec.ts": {
+        "command": "playwright test tests/projects-details-update-status.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/projects-details-update-status.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/projects-list.spec.ts": {
+        "command": "playwright test tests/projects-list.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/projects-list.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/sidebar.spec.ts": {
+        "command": "playwright test tests/sidebar.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/sidebar.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/tasks-details-create-tasks.spec.ts": {
+        "command": "playwright test tests/tasks-details-create-tasks.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/tasks-details-create-tasks.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/tasks-details-delete-tasks.spec.ts": {
+        "command": "playwright test tests/tasks-details-delete-tasks.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/tasks-details-delete-tasks.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/tasks-details-editings.spec.ts": {
+        "command": "playwright test tests/tasks-details-editings.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/tasks-details-editings.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci--tests/tasks-list.spec.ts": {
+        "command": "playwright test tests/tasks-list.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/tasks-list.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ]
+      },
+      "e2e-ci": {
+        "executor": "nx:noop",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^default",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report",
+          "{projectRoot}/test-results"
+        ],
+        "dependsOn": [
+          {
+            "target": "e2e-ci--tests/auth-login-logout.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/auth-protected.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/dashboard.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/projects-details-create-defaults.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/projects-details-create-tasks.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/projects-details-update-status.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/projects-list.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/sidebar.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/tasks-details-create-tasks.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/tasks-details-delete-tasks.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/tasks-details-editings.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/tasks-list.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          }
+        ],
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in CI",
+          "nonAtomizedTarget": "playwright:e2e",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "E2E (CI)": [
+          "e2e-ci--tests/auth-login-logout.spec.ts",
+          "e2e-ci--tests/auth-protected.spec.ts",
+          "e2e-ci--tests/dashboard.spec.ts",
+          "e2e-ci--tests/projects-details-create-defaults.spec.ts",
+          "e2e-ci--tests/projects-details-create-tasks.spec.ts",
+          "e2e-ci--tests/projects-details-update-status.spec.ts",
+          "e2e-ci--tests/projects-list.spec.ts",
+          "e2e-ci--tests/sidebar.spec.ts",
+          "e2e-ci--tests/tasks-details-create-tasks.spec.ts",
+          "e2e-ci--tests/tasks-details-delete-tasks.spec.ts",
+          "e2e-ci--tests/tasks-details-editings.spec.ts",
+          "e2e-ci--tests/tasks-list.spec.ts",
+          "e2e-ci"
+        ]
+      }
+    }
+  }
+}

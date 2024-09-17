@@ -1,0 +1,26 @@
+{
+  "name": "@tasker/database",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "prisma generate",
+    "format": "prisma format",
+    "db:seed": "prisma db push --force-reset && prisma db seed"
+  },
+  "prisma": {
+    "seed": "ts-node scripts/seed.ts"
+  },
+  "exports": {
+    ".": "./src/db.ts",
+    "./model": "./src/model.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "date-fns": "^3.6.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "prisma": "^5.13.0"
+  }
+}

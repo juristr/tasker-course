@@ -1,0 +1,103 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProjectStatus: renders with empty 1`] = `
+<body>
+  <div>
+    <h3
+      class="mb-4 text-lg font-semibold"
+    >
+      Projects
+    </h3>
+    <p
+      class="mb-4 text-sm text-gray-500"
+    >
+      Active projects and their status
+    </p>
+    <div
+      class="grid gap-4"
+    />
+  </div>
+</body>
+`;
+
+exports[`ProjectStatus: renders with projects 1`] = `
+<body>
+  <div>
+    <h3
+      class="mb-4 text-lg font-semibold"
+    >
+      Projects
+    </h3>
+    <p
+      class="mb-4 text-sm text-gray-500"
+    >
+      Active projects and their status
+    </p>
+    <div
+      class="grid gap-4"
+    />
+  </div>
+  <div>
+    <h3
+      class="mb-4 text-lg font-semibold"
+    >
+      Projects
+    </h3>
+    <p
+      class="mb-4 text-sm text-gray-500"
+    >
+      Active projects and their status
+    </p>
+    <div
+      class="grid gap-4"
+    >
+      <a
+        class="flex items-center justify-between"
+        href="/projects/ENG"
+      >
+        <div
+          class="flex items-center gap-2"
+        >
+          <div
+            class="h-2 w-2 rounded-full bg-green-300"
+          />
+          <span
+            class="text-sm font-medium text-gray-600"
+          >
+            Engineering
+          </span>
+        </div>
+        <span
+          class="rounded-md border border-gray-200 border-gray-300 px-2 py-1 text-xs font-medium text-gray-600 dark:border-gray-800"
+          data-testid="project-item-status"
+        >
+          On Track
+        </span>
+      </a>
+      <a
+        class="flex items-center justify-between"
+        href="/projects/UX"
+      >
+        <div
+          class="flex items-center gap-2"
+        >
+          <div
+            class="h-2 w-2 rounded-full bg-green-300"
+          />
+          <span
+            class="text-sm font-medium text-gray-600"
+          >
+            Design
+          </span>
+        </div>
+        <span
+          class="rounded-md border border-gray-200 border-gray-300 px-2 py-1 text-xs font-medium text-gray-600 dark:border-gray-800"
+          data-testid="project-item-status"
+        >
+          On Track
+        </span>
+      </a>
+    </div>
+  </div>
+</body>
+`;
