@@ -34,3 +34,8 @@ playwright/.cache/
 # Misc
 .DS_Store
 *.pem
+
+
+
+.nx/cache
+.nx/workspace-data
