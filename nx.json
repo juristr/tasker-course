@@ -6,15 +6,10 @@
       "outputs": ["{projectRoot}/.next"],
       "cache": true
     },
-    "e2e": {
-      "cache": true
-    },
-    "lint": {
-      "cache": true
-    },
-    "test": {
-      "cache": true
-    }
+    "e2e": { "cache": true },
+    "lint": { "cache": true },
+    "test": { "cache": true }
   },
-  "defaultBase": "main"
+  "defaultBase": "main",
+  "nxCloudId": "66e99dcf5d41efe7b0c5dc21"
 }
