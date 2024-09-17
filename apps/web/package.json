@@ -27,5 +27,14 @@
     "@types/node": "^20.12.11",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19"
+  },
+  "nx": {
+    "targets": {
+      "start": {
+        "dependsOn": [
+          "build"
+        ]
+      }
+    }
   }
 }
