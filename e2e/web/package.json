@@ -2,7 +2,7 @@
   "name": "@tasker/e2e-web",
   "private": true,
   "scripts": {
-    "e2e": "playwright test"
+    "e2e": "nx playwright:e2e"
   },
   "devDependencies": {
     "date-fns": "^3.6.0",

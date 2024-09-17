@@ -24,7 +24,7 @@ jobs:
           version: 9.9.0 # temporary fix for Nx Cloud PNPM version detection
           run_install: false
 
-      - run: pnpm dlx nx-cloud start-ci-run --distribute-on="3 linux-medium-js" --stop-agents-after="e2e"
+      - run: pnpm dlx nx-cloud start-ci-run --distribute-on="5 linux-medium-js" --stop-agents-after="e2e-ci"
 
       - name: Install dependencies
         run: pnpm install
@@ -34,7 +34,7 @@ jobs:
         run: |
           pnpm format:check
           pnpm lint
-          pnpm exec nx run-many -t test build e2e
+          pnpm exec nx run-many -t test build e2e-ci
       # - name: Run Playwright tests
       #   run: pnpm --filter "@tasker/e2e-web" e2e
       - uses: actions/upload-artifact@v4

@@ -8,6 +8,9 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.2.0",
+    "@nx/playwright": "19.7.3",
+    "@nx/workspace": "19.7.3",
+    "@playwright/test": "^1.44.0",
     "@testing-library/react": "^15.0.7",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
@@ -15,16 +18,14 @@
     "eslint-plugin-react": "^7.34.1",
     "globals": "^15.2.0",
     "jsdom": "^24.0.0",
+    "nx": "19.7.3",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14",
     "react": "^18.2.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
     "typescript-eslint": "^7.9.0",
-    "vitest": "^1.6.0",
-    "@playwright/test": "^1.44.0",
-    "nx": "19.7.3",
-    "@nx/workspace": "19.7.3"
+    "vitest": "^1.6.0"
   },
   "packageManager": "pnpm@9.9.0"
 }
