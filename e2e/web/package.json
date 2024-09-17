@@ -1,0 +1,12 @@
+{
+  "name": "@tasker/e2e-web",
+  "private": true,
+  "scripts": {
+    "e2e": "playwright test"
+  },
+  "devDependencies": {
+    "date-fns": "^3.6.0",
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.11"
+  }
+}
