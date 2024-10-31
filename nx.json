@@ -30,6 +30,5 @@
         "targetName": "playwright:e2e"
       }
     }
-  ],
-  "bump": "1"
+  ]
 }
